@@ -133,14 +133,13 @@ nav a:hover {
 }
 
 .msg {
-    grid-column: 6/10;
-    grid-row: 6/7;
-    background-color: #6f7364;
-    color: white;
+    background-color: #ffffff;
+    color: #304D6D; 
     padding: 35px;
     border-radius: 10px;
     box-shadow: 5px 5px 10px #6f7364;
 }
+
 
 footer {
     background-color: #304D6D;
@@ -200,3 +199,4 @@ footer a:hover {
         margin-top: 25px;
     }
 }
+
