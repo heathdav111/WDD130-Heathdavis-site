@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Quintessential&family=Lato:wght@400;700&display=swap');
+@@import url('https://fonts.googleapis.com/css2?family=Quintessential&family=Lato:wght@400;700&display=swap');
 
 * {
     margin: 0;
@@ -143,25 +143,31 @@ nav a:hover {
     box-shadow: 5px 5px 10px #6f7364;
 }
 
+
 .msg {
     grid-column: 6/10;
     grid-row: 6/7;
     background-color: #ffffff;
-    color: #304D6D; 
+    color: #304D6D;
     padding: 35px;
     border-radius: 10px;
     box-shadow: 5px 5px 10px #6f7364;
 }
 
-.msg h2 { 
-    color: #304D6D;
+
+.msg h2 {
+    color: #304D6D !important;
     margin-bottom: 12px;
 }
 
-.msg p { 
-    color: #304D6D;
+.msg p {
+    color: #304D6D !important;
     line-height: 1.6;
     margin-bottom: 20px;
+}
+
+.msg .join {
+    color: #ffffff !important; 
 }
 
 footer {
