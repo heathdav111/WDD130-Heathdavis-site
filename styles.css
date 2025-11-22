@@ -207,5 +207,19 @@ footer a:hover {
     footer { margin-top: 25px; }
 }
 
+.msg {
+    background-color: #ffffff !important;
+}
+
+.msg h2,
+.msg p {
+    color: #304D6D !important;
+    opacity: 1 !important;
+}
+
+.msg a.join {
+    color: white !important;
+}
+
 
 
