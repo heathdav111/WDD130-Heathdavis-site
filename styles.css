@@ -222,3 +222,151 @@ footer a:hover {
 }
 
 
+
+
+.safety-page {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 25px;
+}
+
+/* PAGE TITLE */
+.safety-title {
+    text-align: center;
+    font-size: 2.8rem;
+    margin-bottom: 2rem;
+    color: #1d3b5a; /* deep rafting blue */
+}
+
+.safety-overview {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.safety-overview img {
+    width: 100%;
+    border-radius: 12px;
+    border: 3px solid #d9d9d9;
+}
+
+.safety-overview h2 {
+    margin-bottom: 10px;
+    font-size: 1.8rem;
+}
+
+.safety-overview p {
+    line-height: 1.6;
+    font-size: 1.05rem;
+}
+
+
+.required-gear {
+    text-align: center;
+    margin-bottom: 3.5rem;
+}
+
+.required-gear h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.gear-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.gear-item {
+    background-color: #fff7d6;
+    border: 2px solid #e5c471;
+    border-radius: 12px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0px 2px 6px rgba(0,0,0,0.15);
+}
+
+.gear-item h3 {
+    margin: 15px 0 10px 0;
+    color: #6c4a17;
+}
+
+.gear-item p {
+    line-height: 1.5;
+}
+
+.gear-img {
+    width: 100%;
+    max-height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid #d3d3d3;
+}
+
+
+.river-rules {
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.river-rules h2 {
+    font-size: 1.9rem;
+    margin-bottom: 12px;
+}
+
+.river-rules ul {
+    max-width: 650px;
+    margin: 15px auto;
+    text-align: left;
+    line-height: 1.6;
+    padding-left: 20px;
+}
+
+.river-rules li {
+    margin-bottom: 8px;
+}
+
+.pretrip-checklist {
+    margin-bottom: 4rem;
+    text-align: center;
+}
+
+.pretrip-checklist h2 {
+    font-size: 1.9rem;
+}
+
+.pretrip-checklist ul {
+    max-width: 650px;
+    margin: 15px auto;
+    text-align: left;
+    line-height: 1.6;
+    padding-left: 20px;
+}
+
+.pretrip-checklist li {
+    margin-bottom: 8px;
+}
+
+
+footer .social {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+footer .social img {
+    width: 40px;
+    height: 40px;
+    border-radius: 6px;
+    transition: transform 0.2s;
+}
+
+footer .social img:hover {
+    transform: scale(1.1);
+}
+
+
+
