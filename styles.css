@@ -46,7 +46,8 @@ nav a {
     padding: 8px 16px;
 }
 
-nav a:hover {
+nav a:hover,
+nav a.active {
     background-color: #A39214;
     color: white;
     border-radius: 5px;
@@ -172,7 +173,90 @@ footer a:hover {
     margin: 0 10px;
 }
 
+.safety-page img {
+    width: auto !important;
+    max-width: 100% !important;
+    height: auto !important;
+}
+
+.safety-page {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 25px;
+}
+
+.safety-title {
+    text-align: center;
+    font-size: 2.8rem;
+    margin-bottom: 2rem;
+    color: #1d3b5a; 
+}
+
+.safety-overview {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    gap: 30px !important;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.safety-overview img {
+    width: 100% !important;
+    height: auto !important;
+    border-radius: 12px;
+    border: 3px solid #d9d9d9;
+}
+
+.required-gear {
+    text-align: center;
+    margin-bottom: 3.5rem;
+}
+
+.gear-grid {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap: 25px !important;
+}
+
+.gear-item {
+    background-color: #fff7d6;
+    border: 2px solid #e5c471;
+    border-radius: 12px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+.gear-img {
+    width: 100% !important;
+    height: 180px !important;
+    object-fit: cover !important;
+    border-radius: 10px;
+    border: 2px solid #d3d3d3;
+}
+
+.river-rules,
+.pretrip-checklist {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.river-rules ul,
+.pretrip-checklist ul {
+    max-width: 650px;
+    margin: 15px auto;
+    text-align: left;
+    padding-left: 20px;
+    line-height: 1.6;
+}
+
+.river-rules h2,
+.pretrip-checklist h2 {
+    font-size: 1.9rem;
+}
+
 @media screen and (max-width: 900px) {
+
     #hero, .home-grid {
         display: block;
         height: auto;
@@ -186,187 +270,18 @@ footer a:hover {
         display: block;
         padding: 15px;
     }
-
-    #hero { margin-top: 0; }
-    #hero-msg { margin-top: 0; }
-    #hero-msg h4 { display: none; }
-
-    .rivers-card, .camping-card, .rapids-card {
-        margin: 50px auto;
-        width: 60%;
+    .safety-overview {
+        grid-template-columns: 1fr !important;
+        text-align: center;
     }
 
-    #background { display: none; }
-
-    .mountains, .msg {
-        width: 80%;
-        display: block;
-        margin: 0 auto;
+    .gear-grid {
+        grid-template-columns: 1fr !important;
     }
 
     footer { margin-top: 25px; }
 }
 
-.msg {
-    background-color: #ffffff !important;
-}
-
-.msg h2,
-.msg p {
-    color: #304D6D !important;
-    opacity: 1 !important;
-}
-
-.msg a.join {
-    color: white !important;
-}
-
-
-
-
-.safety-page {
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 25px;
-}
-
-/* PAGE TITLE */
-.safety-title {
-    text-align: center;
-    font-size: 2.8rem;
-    margin-bottom: 2rem;
-    color: #1d3b5a; /* deep rafting blue */
-}
-
-.safety-overview {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 30px;
-    align-items: center;
-    margin-bottom: 3rem;
-}
-
-.safety-overview img {
-    width: 100%;
-    border-radius: 12px;
-    border: 3px solid #d9d9d9;
-}
-
-.safety-overview h2 {
-    margin-bottom: 10px;
-    font-size: 1.8rem;
-}
-
-.safety-overview p {
-    line-height: 1.6;
-    font-size: 1.05rem;
-}
-
-
-.required-gear {
-    text-align: center;
-    margin-bottom: 3.5rem;
-}
-
-.required-gear h2 {
-    font-size: 2rem;
-    margin-bottom: 20px;
-}
-
-.gear-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 25px;
-}
-
-.gear-item {
-    background-color: #fff7d6;
-    border: 2px solid #e5c471;
-    border-radius: 12px;
-    padding: 15px;
-    text-align: center;
-    box-shadow: 0px 2px 6px rgba(0,0,0,0.15);
-}
-
-.gear-item h3 {
-    margin: 15px 0 10px 0;
-    color: #6c4a17;
-}
-
-.gear-item p {
-    line-height: 1.5;
-}
-
-.gear-img {
-    width: 100%;
-    max-height: 180px;
-    object-fit: cover;
-    border-radius: 10px;
-    border: 2px solid #d3d3d3;
-}
-
-
-.river-rules {
-    margin-bottom: 3rem;
-    text-align: center;
-}
-
-.river-rules h2 {
-    font-size: 1.9rem;
-    margin-bottom: 12px;
-}
-
-.river-rules ul {
-    max-width: 650px;
-    margin: 15px auto;
-    text-align: left;
-    line-height: 1.6;
-    padding-left: 20px;
-}
-
-.river-rules li {
-    margin-bottom: 8px;
-}
-
-.pretrip-checklist {
-    margin-bottom: 4rem;
-    text-align: center;
-}
-
-.pretrip-checklist h2 {
-    font-size: 1.9rem;
-}
-
-.pretrip-checklist ul {
-    max-width: 650px;
-    margin: 15px auto;
-    text-align: left;
-    line-height: 1.6;
-    padding-left: 20px;
-}
-
-.pretrip-checklist li {
-    margin-bottom: 8px;
-}
-
-
-footer .social {
-    margin-top: 10px;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-}
-
-footer .social img {
-    width: 40px;
-    height: 40px;
-    border-radius: 6px;
-    transition: transform 0.2s;
-}
-
-footer .social img:hover {
-    transform: scale(1.1);
-}
 
 
 
